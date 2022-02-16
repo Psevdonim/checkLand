@@ -1,0 +1,1505 @@
+body {
+	position: relative;
+	background: linear-gradient(180deg, rgba(37, 37, 44, 1) 0%, #0C0C0E 100%);
+	min-height: 100vh;
+	position: relative;
+	scrollbar-width: thin;
+	scrollbar-color: #d4aa70 #e4e4e4;
+	position: relative;
+}
+
+body:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1250px;
+	opacity: .2;
+	background: radial-gradient(145.91% 78.47% at 50% 24.92%, rgba(34, 34, 40, 0) 0%, #232328 100%), linear-gradient(180deg, rgba(12, 12, 14, 0) 0%, #232328 100%), url(../img/backgrounds/land-header-back.jpg) no-repeat top center /160%;
+	z-index: -1;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+	background: linear-gradient(180deg, rgba(37, 37, 44, 1) 0%, #0C0C0E 100%);
+}
+
+body::-webkit-scrollbar-thumb {
+	box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+	background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+	border-radius: 20px;
+}
+
+
+.news__swiper {
+	overflow: hidden;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+section {
+	margin: 200px 0;
+	overflow: hidden;
+}
+
+
+@keyframes gradient {
+	0% {
+		background: radial-gradient(circle at center, #FAC704 99%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+	}
+
+	25% {
+		background: radial-gradient(circle at center, rgba(250, 199, 4, 0.8) 74%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0) 100%);
+	}
+
+	50% {
+		background: radial-gradient(circle at center, rgba(250, 199, 4, 0.5) 49%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+	}
+
+	75% {
+		background: radial-gradient(circle at center, rgba(250, 199, 4, 0.3) 24%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 100%);
+	}
+
+	100% {
+		color: #F8F8F8;
+		background: radial-gradient(circle at center, rgba(250, 199, 4, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+	}
+}
+
+
+.df-jcsb-aic {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__buttons .button {
+	margin-right: 20px;
+}
+
+.page__header {
+	padding: 20px 75px 0;
+}
+
+.button {
+	cursor: pointer;
+	border-radius: 4px;
+	background: #FAC704;
+	color: #1A1A1C;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 500;
+	padding: 7.5px 25px;
+	transition: .1s linear;
+	border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.button_white {
+	border: 1px solid #F8F8F8;
+	color: #F8F8F8;
+	background: none;
+}
+
+.button img {
+	margin-right: 5px;
+}
+
+.page__language {
+	position: relative;
+}
+
+.button:hover {
+	box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.4);
+}
+
+.button:active {
+	box-shadow: 0px 0px 7px 1px rgba(255, 255, 255, 0.0);
+}
+
+
+.button_yellow:active {
+	animation: gradient 100ms;
+	background: rgba(0, 0, 0, 0);
+	color: #F8F8F8;
+	border: 1px solid #F8F8F8;
+}
+
+
+.page__language ul {
+	position: absolute;
+	top: 120%;
+	left: -30%;
+	display: none;
+	background: rgba(255, 255, 255, .05);
+}
+
+.page__language ul li {
+	padding: 5px 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	cursor: pointer;
+	transition: .1s linear;
+}
+
+.page__language ul li:hover {
+	color: #FAC704;
+}
+
+.page__language ul li:nth-last-child(1) {
+	border-bottom: 0px solid white;
+}
+
+.page__language.active ul {
+	display: block;
+}
+
+.current__language {
+	cursor: pointer;
+}
+
+.main {
+	text-align: center;
+}
+
+.main__description {
+	width: 700px;
+	margin: 0 auto;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.main__buttons {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.main__description {
+	margin: 20px auto 50px;
+}
+
+.main__logo {
+	width: 256px;
+	margin: 100px auto 70px;
+}
+
+.main__logo img {
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 56px;
+	line-height: 66px;
+	text-align: center;
+}
+
+.button_yellow-transparent {
+	padding: 20px 40px;
+	color: #FAC704;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	background: rgba(250, 199, 4, 0.05);
+	border: 2px solid #FAC704;
+	box-sizing: border-box;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button_yellow-transparent img {
+	margin-left: 10px;
+}
+
+.apple__icon {
+	margin-top: -5px;
+}
+
+.partners__slide {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+.swiper-slides {
+	align-items: center;
+}
+
+.slide-1 img {
+	width: 160px;
+	opacity: .5;
+}
+
+.slide-2 img {
+	width: 87px;
+}
+
+.slide-3 img {
+	width: 157px;
+}
+
+.slide-4 img {
+	width: 68px;
+}
+
+.slide-5 img {
+	width: 191px;
+	opacity: .5;
+}
+
+.slide-6 img {
+	width: 190px;
+	opacity: .5;
+}
+
+.slide-7 img {
+	width: 109px;
+	opacity: .5;
+}
+
+.news__swiper .swiper-slide img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.news__container {
+	position: relative;
+	padding: 0 150px;
+}
+
+.news__container {
+	position: relative;
+
+}
+
+.news__arrow {
+	position: absolute;
+	padding: 90px 40px;
+	top: calc(50% - 90px);
+	border: 0 solid #000;
+	background: linear-gradient(270deg, rgba(196, 196, 196, 0) 0%, rgba(191, 191, 191, 0.1) 117.5%);
+	backdrop-filter: blur(80px);
+	border-radius: 2px;
+	transition: .1s linear;
+	box-shadow: 0px 0px 0px 0px #F8F8F8;
+}
+
+.news__arrow:after {
+	content: '';
+	position: absolute;
+	top: calc(50% - 17px);
+	left: calc(50% - 10px);
+	background: url(../img/icons/arrow.svg);
+	width: 21px;
+	height: 34px;
+}
+
+.news__arrow.news__arrow_right:after {
+	transform: rotate(180deg);
+}
+
+.news__arrow.news__arrow_right {
+	background: linear-gradient(270deg, rgba(191, 191, 191, 0.1) 0%, rgba(196, 196, 196, 0) 117.5%);
+	right: 25px;
+}
+
+.news__arrow.news__arrow_left {
+	left: 25px;
+}
+
+.news__arrow:hover {
+	box-shadow: 0px 0px 5px 0.2px #F8F8F8;
+
+}
+
+.news__arrow:active {
+	box-shadow: 0px 0px 0px 0px #F8F8F8;
+}
+
+.news__title {
+	text-align: center;
+	margin: 15px 0 10px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.online {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	padding: 5px 14px;
+	background-color: #F13939;
+	border-radius: 21px;
+	margin-right: 10px;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.benefits__title {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	margin: 0 0 20px;
+}
+
+.benefits__description {
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.games {
+	padding-top: 20px;
+}
+
+.games__image {
+	position: relative;
+}
+
+.games__card {
+	cursor: pointer;
+}
+
+.games__card .games__image_gold-wrapper {
+	opacity: 0;
+	position: absolute;
+	top: -7%;
+	left: -5%;
+	object-fit: contain;
+	min-width: 770px;
+	transition: .2s linear;
+}
+
+.games__card.active .games__image_gold-wrapper {
+	opacity: 1;
+}
+
+.games__card.active .games__title {
+	color: #FAC704
+}
+
+.games__title {
+	margin-top: 40px;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+	transition: .2s linear;
+}
+
+.games__card.active .games__download {
+	opacity: 1;
+}
+
+.instructions__cards {
+	position: relative;
+}
+
+.instructions__cards:after {
+	content: '';
+	position: absolute;
+	width: 80%;
+	bottom: 36%;
+	left: 10%;
+	height: 5px;
+	background: linear-gradient(90deg, #FAC704 -1.63%, #FF7A00 101.63%);
+	z-index: -1;
+}
+
+.instructions__card {
+	margin: 0;
+	height: 270px;
+	align-items: center;
+	justify-content: start;
+}
+
+.games__download {
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FAC704;
+	width: 100%;
+	opacity: 0;
+	transition: .2s linear;
+}
+
+.instructions__title {
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.instructions__image {
+	max-width: 106px;
+}
+
+.instructions__number {
+	cursor: pointer;
+	margin: 30px 0 14px;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	color: #8A0074;
+	min-width: 70px;
+	min-height: 70px;
+	background: url(../img/instructions/back.png) no-repeat center center /contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.instructions__number:after {
+	content: '';
+	position: absolute;
+	height: 115px;
+	width: 190px;
+	left: -100%;
+	bottom: 70%;
+	background: url(../img/instructions/light.svg);
+	transition: .2s linear;
+	opacity: 0;
+
+}
+
+.instructions__number:hover:after {
+	content: '';
+	opacity: 1;
+}
+
+.instructions__card-text {
+	width: 210px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+}
+
+.promotions__card {
+	position: relative;
+	margin-top: 80px;
+	background: linear-gradient(262.36deg, #7D70D1 0%, #134B48 100%);
+	border-radius: 25px;
+	width: 100%;
+	padding: 80px 120px 120px;
+}
+
+.promotions__card:after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	bottom: -25%;
+	right: 0;
+	background: url(../img/backgrounds/promo-image-2.png) no-repeat center right /contain;
+	width: 50%;
+	height: 150%;
+
+}
+
+.promotions__card-descriptions {
+	margin: 25px 0 40px;
+	max-width: 600px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.promotions__card-title {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+}
+
+.promotions__button {
+	background: rgba(248, 248, 248, 0.1);
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	padding: 17px 50px;
+}
+
+.players__description {
+	margin: 40px auto;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	width: 650px;
+}
+
+.players__swiper-small .swiper-slide img {
+	overflow: hidden;
+	border: 4px solid transparent;
+	border-radius: 53px;
+	width: 100%;
+	object-fit: cover;
+	width: 60px;
+	height: 60px;
+}
+
+.players__slider-small-title {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.players__swiper-small .swiper-slide {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.players__swiper-small .swiper-slide.swiper-slide-active img {
+	border: 4px solid #FAC704;
+
+}
+
+.players__swiper-small {
+	max-width: 900px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.players .container {
+	position: relative;
+}
+
+.players__arrow {
+	position: absolute;
+	padding: 50px 40px;
+	top: calc(100% - 80px);
+	border: 0 solid #000;
+	background: linear-gradient(270deg, rgba(196, 196, 196, 0) 0%, rgba(191, 191, 191, 0.1) 117.5%);
+	backdrop-filter: blur(80px);
+	border-radius: 2px;
+	transition: .1s linear;
+	box-shadow: 0px 0px 0px 0px #F8F8F8;
+}
+
+
+.players__arrow:after {
+	content: '';
+	position: absolute;
+	bottom: calc(50% - 17px);
+	background: url(../img/icons/arrow.svg);
+	width: 21px;
+	height: 34px;
+}
+
+.players__arrow.players__arrow_right:after {
+	transform: rotate(180deg);
+}
+
+.players__arrow.players__arrow_right {
+	background: linear-gradient(270deg, rgba(191, 191, 191, 0.1) 0%, rgba(196, 196, 196, 0) 117.5%);
+	right: 50px;
+}
+
+.players__arrow.players__arrow_left {
+	left: 50px;
+}
+
+.players__arrow:hover {
+	box-shadow: 0px 0px 5px 0.2px #F8F8F8;
+
+}
+
+.players__swiper {
+	overflow: hidden;
+}
+
+.players__arrow:active {
+	box-shadow: 0px 0px 0px 0px #F8F8F8;
+}
+
+.players__swiper .swiper-slide-next .slider__wrapper,
+.players__swiper .swiper-slide-prev .slider__wrapper {
+	transform: scale(0.8);
+}
+
+.slider__wrapper {
+	transform: scale(1);
+	transition: .2s linear;
+
+}
+
+.players__swiper .slider__wrapper {
+	display: flex;
+	margin-left: 20px;
+	justify-content: flex-start;
+	background: #23252C;
+	margin-top: 200px;
+	border-radius: 18px;
+	max-width: 700px;
+	height: 400px;
+	position: relative;
+	padding: 40px;
+}
+
+.swiper-slide img {
+	transition: .2s linear;
+}
+
+.players__swiper .swiper-slide-next img,
+.players__swiper .swiper-slide-prev img {
+	position: relative;
+	height: 400px;
+	object-fit: contain;
+	left: -5%;
+	bottom: 40px;
+}
+
+.players__swiper .swiper-slide-active img {
+	position: relative;
+	height: 450px;
+	object-fit: contain;
+	left: -6%;
+	bottom: 90px;
+}
+
+.players__info {
+	width: 100%;
+}
+
+.players__info-nickname {
+	font-weight: 900;
+	font-size: 34px;
+	line-height: 40px;
+}
+
+.players__info-name {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+	color: #606060;
+}
+
+.players__info-team {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+	margin: 10px 0 30px;
+}
+
+.players__info-description {
+	font-size: 18px;
+	line-height: 21px;
+	color: #BFBFBF
+}
+
+.banner {
+	background: #23252C;
+	padding: 40px;
+	margin: 0;
+}
+
+.banner .container {
+	justify-content: center;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.banner .container p {
+	margin-right: 150px;
+}
+
+.through {
+	position: relative;
+}
+
+.through:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background-color: #FFFFFF;
+	bottom: 35%;
+	left: 0;
+	position: absolute;
+}
+
+
+.stars {
+	position: relative;
+	padding-top: 400px;
+	margin: 0;
+}
+
+.stars:after {
+	position: absolute;
+	content: '';
+	background: linear-gradient(180deg, rgba(20, 20, 24, 0.8) 0%, rgba(20, 20, 24, .9) 50%, #141418 100%), url(../img/backgrounds/land-info-back.jpg) no-repeat top left /100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 950px;
+	z-index: -1;
+}
+
+.stars__banner {
+	background: rgba(248, 248, 248, 0.05);
+	backdrop-filter: blur(40px);
+	padding: 50px 100px;
+	border: 2px solid #FAC704;
+	box-sizing: border-box;
+	border-radius: 39px;
+}
+
+.stars__banner-title {
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #FAC704;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.stars__banner-description {
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	color: #787878;
+}
+
+.stars__title {
+	margin-top: 250px;
+}
+
+.stars__description {
+	margin: 20px 0 60px;
+	text-align: center;
+}
+
+.stars__card,
+.stars__team,
+.stars__info,
+.stars__achievments {
+	width: 100%;
+}
+
+.stars__card {
+	margin-bottom: 20px;
+	background: rgba(248, 248, 248, 0.05);
+	max-height: 80px;
+	padding: 20px 30px 20px 0;
+}
+
+.stars__team {
+	justify-content: flex-start;
+}
+
+.stars__achievments {
+	justify-content: flex-end;
+}
+
+.stars__achievments img {
+	height: 40px;
+	object-fit: contain;
+	margin-left: 15px;
+}
+
+
+.stars__team .stars__team-logo {
+	max-height: 80px;
+	min-width: 108px;
+	object-fit: contain;
+	margin-right: 45px;
+}
+
+.stars__team .stars__team-name {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.stars__info-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #606060;
+}
+
+.stars__info-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.application {
+	overflow: hidden;
+}
+
+.statistic__wrapper,
+.application__wrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.statistic__info {
+	text-align: right;
+	margin-left: 100px;
+	padding-bottom: 20px;
+}
+
+.statistic__info,
+.application__info {
+	min-width: 700px;
+	overflow: hidden;
+}
+
+.application__info {
+	text-align: left;
+	margin-right: 100px;
+}
+
+.statistic__title,
+.application__title {
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.statistic__description,
+.application__description {
+	margin: 40px 0 40px;
+	font-size: 18px;
+	color: #BFBFBF;
+}
+
+.application__image {
+	margin-right: -800px;
+}
+
+.application__platforms {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.platform__card {
+	margin-right: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.footer {
+	background: #19191D;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding: 90px 0 10px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.footer .container a {
+	z-index: 1;
+}
+
+.footer__logo {
+	width: 160px;
+	object-fit: contain;
+	z-index: 1;
+}
+
+.footer__menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+
+}
+
+.menu__title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	margin-bottom: 60px;
+}
+
+.menu__links {
+	display: flex;
+	flex-direction: column;
+}
+
+.menu__link {
+	margin-bottom: 30px;
+	font-size: 16px;
+	line-height: 19px;
+	-webkit-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.menu__link:hover {
+	color: #FAC704
+}
+
+.menu-link:nth-last-child(1) {
+	margin-bottom: 0;
+}
+
+.icon__path {
+	object-fit: contain;
+	-webkit-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.footer__social-link:hover .icon__path {
+	fill: #FAC704;
+}
+
+.footer__social-link svg {
+	max-width: 30px;
+	max-height: 30px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.facebook.icon__path {
+	width: 13px !important;
+}
+
+.footer__buttons .button img {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.footer__buttons .button {
+	margin: 30px 0;
+	padding: 20px 35px;
+}
+
+.footer__bottom {
+	display: flex;
+	margin-top: 60px;
+}
+
+.footer__bottom a {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #606060
+}
+
+.footer__bottom a:nth-child(2) {
+	margin-left: 100px;
+}
+
+.footer__bottom a:nth-child(3) {
+	margin-left: auto;
+}
+
+.footer__back {
+	position: absolute;
+	left: -150px;
+	top: -170px;
+	opacity: .3;
+	z-index: 0;
+}
+
+.footer__back path {
+	fill: #606060;
+}
+
+@media screen and (max-width:1400px) {
+	.container {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	.games__card {
+		width: 100%;
+	}
+
+	.games__card .games__image_gold-wrapper {
+		min-width: 660px;
+		transition: .2s linear;
+	}
+
+	.players__swiper .swiper-slide-next img,
+	.players__swiper .swiper-slide-prev img {
+		position: relative;
+		height: 300px;
+		object-fit: contain;
+		left: -10%;
+		bottom: -60px;
+	}
+
+	.players__swiper .swiper-slide-active img {
+		position: relative;
+		height: 350px;
+		object-fit: contain;
+		left: -10%;
+		bottom: -30px;
+	}
+
+	.stars:after {
+		position: absolute;
+		content: '';
+		background: linear-gradient(180deg, rgba(21, 21, 24, 0.8) 0%, rgba(21, 21, 24, .9) 50%, #151518 100%), url(../img/backgrounds/land-info-back.jpg) no-repeat top left /100%;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 750px;
+		z-index: -1;
+	}
+}
+
+@media screen and (max-width:1270px) {
+	.container {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.games__card {
+		width: 100%;
+	}
+
+	.games__card .games__image_gold-wrapper {
+		min-width: 540px;
+		transition: .2s linear;
+	}
+
+	.instructions__card-text {
+		width: 190px;
+	}
+
+	.promotions__card:after {
+		right: -50px;
+		bottom: -35%;
+	}
+
+	.players__arrow_left {
+		left: -30px !important;
+	}
+
+	.players__arrow_right {
+		right: -30px !important;
+	}
+
+	.stars__info {
+		width: 130%;
+	}
+
+	.stars__achievments {
+		width: 70%;
+	}
+
+	.statistic__info,
+	.application__info {
+		min-width: 550px;
+		max-width: 550px;
+	}
+
+	.statistic__info {
+		margin-left: 50px;
+	}
+
+	.application__info {
+		margin-right: 50px;
+	}
+
+	.application__image {
+		margin-right: -600px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	section {
+		margin: 100px 0;
+	}
+
+	.title {
+		font-size: 40px;
+	}
+
+	.main__description {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+
+	.main__logo {
+		margin: 0 auto 50px;
+	}
+
+	header .button_white,
+	.main__buttons,
+	.application__buttons,
+	.footer__buttons .button_white {
+		display: none;
+	}
+
+	.main__description {
+		margin-bottom: 0;
+	}
+
+	.benefits__card {
+		max-width: 300px;
+	}
+
+	.benefits__title {
+		margin: 10px;
+	}
+
+	.benefits__description {
+		font-size: 14px;
+	}
+
+	.df-jcsb-aic {
+		flex-wrap: wrap;
+	}
+
+	.games .container {
+		flex-wrap: nowrap;
+	}
+
+	.games__title {
+		font-size: 20px;
+	}
+
+	.games__card .games__image_gold-wrapper {
+		min-width: 400px;
+		transition: .2s linear;
+	}
+
+	.instructions__title {
+		margin-bottom: 30px;
+		font-size: 36px;
+	}
+
+	.instructions__cards:after {
+		display: none;
+	}
+
+	.instructions__card {
+		margin-top: 40px;
+	}
+
+	.promotions__card {
+		padding: 40px 60px 60px;
+	}
+
+	.promotions__card-descriptions {
+		font-size: 30px;
+	}
+
+	.promotions__card:after {
+		display: none;
+	}
+
+	.players__swiper .slider__wrapper {
+		margin-top: 50px;
+	}
+
+	.players__description {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+
+	.banner p {
+		margin-right: 0px !important;
+		text-align: center;
+	}
+
+	.banner .button {
+		margin-top: 20px;
+	}
+
+	.stars {
+		padding-top: 250px;
+	}
+
+	.stars__banner-title {
+		font-size: 40px;
+		line-height: 46px;
+		margin-top: 30px;
+	}
+
+	.stars__banner-description {
+		font-size: 16px;
+	}
+
+	.stars__title {
+		margin-top: 50px;
+	}
+
+	.stars__card {
+		max-height: 100%;
+	}
+
+	.stars__info {
+		max-width: 100%;
+		order: 2;
+		margin-top: 30px;
+		padding-left: 30px;
+	}
+
+	.stars__achievments {
+		max-width: 250px;
+		order: 1;
+	}
+
+	.stars__team {
+		max-width: 400px;
+	}
+
+	.application__wrapper,
+	.statistic__wrapper {
+		justify-content: flex-start;
+	}
+
+	.application__wrapper>img {
+		display: none;
+	}
+
+	.statistic__wrapper img {
+		display: none;
+	}
+
+	.statistic__info {
+		text-align: left;
+		margin-left: 0;
+	}
+
+	.footer .container>.df-jcsb-aic {
+		flex-direction: column;
+	}
+
+	.footer__menu {
+		margin: 40px 0;
+		width: 100%;
+	}
+
+	.footer__socials {
+		flex-wrap: nowrap;
+	}
+
+	.footer__social-link {
+		margin-left: 30px;
+	}
+
+	.footer__back {
+		top: 0;
+	}
+}
+
+@media screen and (max-width:500px) {
+
+
+	header.page__header {
+		padding: 10px;
+		justify-content: space-between;
+	}
+
+	header a {
+		font-size: 16px;
+	}
+
+	.button {
+		padding: 5px 12px;
+		font-size: 16px;
+	}
+
+	.main__description {
+		width: 100%;
+	}
+
+	.title {
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	.main__description {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+
+	body:after {
+		background: radial-gradient(145.91% 78.47% at 50% 24.92%, rgba(34, 34, 40, 0) 0%, #232328 100%), linear-gradient(180deg, rgba(12, 12, 14, 0) 0%, #232328 100%), url(../img/backgrounds/land-header-back.jpg) no-repeat top center /400%;
+	}
+
+	section {
+		margin: 50px 0;
+	}
+
+	.news {
+		margin: 0;
+		padding: 10px;
+	}
+
+	.news__arrow {
+		display: none;
+	}
+
+	.df-jcsb-aic {
+		justify-content: center;
+	}
+
+	.games .container {
+		flex-wrap: wrap;
+	}
+
+	.games-img-pc {
+		display: none;
+	}
+
+	.games__title {
+		margin: 0 0 30px;
+	}
+
+	.games__card.active .games-img-phone {
+		background: linear-gradient(180deg, rgba(31, 31, 36, 0) 19.27%, #000000 100%);
+		border: 5px solid #FAC704;
+		box-shadow: 0px 4px 36px rgba(250, 199, 4, 0.24);
+	}
+
+
+	.instructions__card {
+		margin-top: 20px;
+	}
+
+	.instructions__card-text {
+		font-size: 16px;
+	}
+
+	.instructions__number {
+		font-size: 26px;
+		min-width: 60px;
+		min-height: 60px;
+	}
+
+	.instructions__number:after {
+		left: -123%;
+		bottom: 60%;
+	}
+
+	.players .slider__wrapper img {
+		position: absolute;
+		bottom: auto;
+		left:auto;
+		top:20px;
+right:20px;
+height:140px;
+width:140px;
+border-radius:100%;
+border:3px solid #FAC704;
+	}
+	.players__description{
+		width:95%;
+	}
+	.players .slider__wrapper {
+		margin-left: 0;
+	}
+
+	.stars:after {
+		background: linear-gradient(180deg, rgba(21, 21, 24, 0.8) 0%, rgba(21, 21, 24, .9) 50%, #151518 100%), url(../img/backgrounds/land-info-back.jpg) no-repeat top center /200%;
+	}
+
+	.stars {
+		padding-top: 100px;
+	}
+
+	.stars__team .stars__team-logo {
+		width: 45%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.stars__team {
+		max-width: 100%;
+		width: 100%
+	}
+
+	.stars__card {
+		padding: 20px;
+	}
+
+	.stars__info {
+		padding-left: 0;
+		margin: 20px 0;
+		justify-content: space-between;
+	}
+
+	.stars__info div:nth-child(1n) {
+		width: 35%
+	}
+
+	.stars__info div:nth-child(1n+3) {
+		margin-top: 20px;
+	}
+
+	.stars__achievments {
+		order: 3
+	}
+
+	.statistic__info,
+	.application__info {
+		min-width: 100%;
+	}
+
+	.footer__menu {
+		max-width: 90%;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.footer__menu .menu__item {
+		margin-top: 20px;
+	}
+	.footer__menu .menu__item:nth-child(2n+2){
+		text-align: right;
+	}
+
+	.footer__menu .menu__title {
+		margin-bottom: 20px;
+	}
+
+	.footer__menu .menu__link {
+		margin-bottom: 10px;
+	}
+
+	.footer__bottom a:nth-child(2) {
+		margin-left: 0;
+	}
+
+	.footer__bottom a:nth-child(3) {
+		margin: 10px auto 0;
+	}
+	.footer__bottom{
+		margin-top: 30px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
