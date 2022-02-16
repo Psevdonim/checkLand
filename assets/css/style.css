@@ -221,6 +221,7 @@ section {
 
 .main {
 	text-align: center;
+	margin-top: 11vh;
 }
 
 .main__description {
@@ -437,6 +438,15 @@ section {
 	flex-direction: column;
 }
 
+.benefits .container {
+	-webkit-box-align: flex-start;
+	-ms-flex-align: flex-start;
+	align-items: flex-start;
+}
+
+.benefits__card {
+	max-width: 24%;
+}
 
 .benefits__title {
 	font-weight: bold;
@@ -1373,6 +1383,7 @@ section {
 		max-width: 300px;
 	}
 
+
 	.benefits__title {
 		margin: 10px;
 	}
@@ -1655,6 +1666,10 @@ section {
 
 	.players__info-name {
 		width: 150px;
+	}
+
+	.stars__banner-card {
+		width: 100%;
 	}
 
 	.stars:after {
