@@ -113,19 +113,7 @@ body.loaded {
 	overflow-y:auto;
 
 }
-body:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 1250px;
-	opacity: .2;
-	background: -o-radial-gradient(50% 24.92%, 145.91% 78.47%, rgba(34, 34, 40, 0) 0%, #232328 100%), -o-linear-gradient(top, rgba(12, 12, 14, 0) 0%, #232328 100%);
-	background: radial-gradient(145.91% 78.47% at 50% 24.92%, rgba(34, 34, 40, 0) 0%, #232328 100%), -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 14, 0)), to(#232328));
-	background: radial-gradient(145.91% 78.47% at 50% 24.92%, rgba(34, 34, 40, 0) 0%, #232328 100%), linear-gradient(180deg, rgba(12, 12, 14, 0) 0%, #232328 100%);
-	z-index: -1;
-}
+
 
 body::-webkit-scrollbar {
 	width: 10px;
@@ -263,7 +251,10 @@ section {
 	margin: 200px 0;
 	overflow: hidden;
 }
+.statistic,.application{
+	margin: 100px 0;
 
+}
 
 @-webkit-keyframes gradient {
 	0% {
@@ -2128,7 +2119,9 @@ header {
 	background-size: cover;
 	position: relative;
 }
-
+.neFooter.apps{
+	padding-top: 50px;
+}
 .neFooterContent {
 	margin: 0 auto;
 	display: flex;
