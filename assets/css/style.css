@@ -714,9 +714,14 @@ section {
 	opacity: .6;
 }
 
-.games__card:nth-child(2) {
+.games__card:nth-child(1) {
 	position: relative;
-	left: -5%;
+	left: -2.5%;
+
+}
+	.games__card:nth-child(2) {
+	position: relative;
+	left: -2.5%;
 }
 
 
