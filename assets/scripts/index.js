@@ -7,11 +7,13 @@ const stars = document.querySelector('.stars');
 const numbers = document.querySelectorAll('.stars__banner-title');
 const toTopButton = document.querySelector('.to__top');
 
+if(filterDropdown){
 filterDropdown.forEach((element) => {
 	element.addEventListener('click', () => {
 		element.classList.toggle('active');
 	});
 });
+}
 
 gameSwitcher.forEach((element) => {
 	element.addEventListener('click', () => {
@@ -77,26 +79,26 @@ stars.addEventListener('animationstart', () => {
 	})
 })
 
-new Swiper('.partners__swiper', {
-	autoplay: {
-		delay: 1500,
-		disableOnInteraction: false,
-	},
-	allowTouchMove: false,
-	loop: true,
-	loopFillGroupWithBlank: true,
-	spaceBetween: 40,
-	slidesPerView: 2,
-	slidesPerGroup: 1,
-	breakpoints: {
-		600: {
-			slidesPerView: 4,
-		},
-		1000: {
-			slidesPerView: 6,
-		},
-	}
-});
+//new Swiper('.partners__swiper', {
+//	autoplay: {
+//		delay: 1500,
+//		disableOnInteraction: false,
+//	},
+//	allowTouchMove: false,
+//	loop: true,
+//	loopFillGroupWithBlank: true,
+//	spaceBetween: 40,
+//	slidesPerView: 2,
+//	slidesPerGroup: 1,
+//	breakpoints: {
+//		600: {
+//			slidesPerView: 4,
+//		},
+//		1000: {
+//			slidesPerView: 6,
+//		},
+//	}
+//});
 
 new Swiper('.news__swiper', {
 	navigation: {
@@ -126,54 +128,54 @@ new Swiper('.news__swiper', {
 	}
 });
 
-const players = new Swiper('.players__swiper-small', {
-	loop: true,
-	spaceBetween: 40,
-	slidesPerView: 3,
-	allowTouchMove: false,
-	navigation: {
-		nextEl: ".players__arrow_right",
-		prevEl: ".players__arrow_left",
-	},
-	breakpoints: {
-		//// when window width is >= 320px
-		320: {
-			slidesPerView: 1,
-			spaceBetween: 0
-		},
-		//// when window width is >= 480px
-		600: {
-			slidesPerView: 3,
-			spaceBetween: 30
-		},
-		//// when window width is >= 640px
-		//640: {
-		//  slidesPerView: 4,
-		//  spaceBetween: 40
-		//}
-		1000: {
-			slidesPerView: 4,
-		},
-		1100: {
-			slidesPerView: 5,
-		}
-	}
-});
+//const players = new Swiper('.players__swiper-small', {
+//	loop: true,
+//	spaceBetween: 40,
+//	slidesPerView: 3,
+//	allowTouchMove: false,
+//	navigation: {
+//		nextEl: ".players__arrow_right",
+//		prevEl: ".players__arrow_left",
+//	},
+//	breakpoints: {
+//		//// when window width is >= 320px
+//		320: {
+//			slidesPerView: 1,
+//			spaceBetween: 0
+//		},
+//		//// when window width is >= 480px
+//		600: {
+//			slidesPerView: 3,
+//			spaceBetween: 30
+//		},
+//		//// when window width is >= 640px
+//		//640: {
+//		//  slidesPerView: 4,
+//		//  spaceBetween: 40
+//		//}
+//		1000: {
+//			slidesPerView: 4,
+//		},
+//		1100: {
+//			slidesPerView: 5,
+//		}
+//	}
+//});
 
 
 
-new Swiper('.players__swiper', {
-	loop: true,
-	spaceBetween: 10,
-	slidesPerView: 1,
-	allowTouchMove: false,
-	navigation: {
-		nextEl: ".players__arrow_right",
-		prevEl: ".players__arrow_left",
-	},
-	breakpoints: {
-		1270: {
-			slidesPerView: 2,
-		}
-	}
-});
+//new Swiper('.players__swiper', {
+//	loop: true,
+//	spaceBetween: 10,
+//	slidesPerView: 1,
+//	allowTouchMove: false,
+//	navigation: {
+//		nextEl: ".players__arrow_right",
+//		prevEl: ".players__arrow_left",
+//	},
+//	breakpoints: {
+//		1270: {
+//			slidesPerView: 2,
+//		}
+//	}
+//});
