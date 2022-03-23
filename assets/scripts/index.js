@@ -71,13 +71,15 @@ new WOW({
 
 
 
-stars.addEventListener('animationstart', () => {
+if(stars){
+	stars.addEventListener('animationstart', () => {
 	numbers.forEach(e => {
 		if (e.classList.value.indexOf('js') === -1) {
 			animateValue(e);
 		}
 	})
 })
+}
 
 //new Swiper('.partners__swiper', {
 //	autoplay: {
