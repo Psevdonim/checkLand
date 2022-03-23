@@ -2119,8 +2119,8 @@ header {
 	background-size: cover;
 	position: relative;
 }
-.neFooter.apps{
-	padding-top: 50px;
+.neFooter{
+	padding-top: 80px;
 }
 .neFooterContent {
 	margin: 0 auto;
