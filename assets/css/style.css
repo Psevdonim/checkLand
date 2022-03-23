@@ -649,12 +649,17 @@ section {
 	flex-direction: column;
 }
 
+
+
 .benefits .container {
 	-webkit-box-align: flex-start;
 	-ms-flex-align: flex-start;
 	align-items: flex-start;
 }
-
+.benefits__header-title{
+	text-align: center;
+	margin:80px 0 50px;
+}
 .benefits__card {
 	max-width: 24%;
 }
@@ -2101,6 +2106,6 @@ header {
 
 .promotions__title {
 	text-align: center;
-	font-size: 6vh;
+	font-size: 48px;
 	margin: 0 auto;
 }
