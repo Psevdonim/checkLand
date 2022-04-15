@@ -2817,19 +2817,40 @@ min-width:100%;
 .usConent_Steps{
 	flex-wrap: wrap;
 }
-.usConent_Steps .su_step span{
-	font-size: 30px;
+.usConent_Steps .su_step > span{
+	font-size: 24px;
 }
+
 .usConent_Steps .su_step p{
 	font-size: 14px;
 
 }
 
+.ligues {
+	margin-top:20px;
+
+}
+.ligues span {
+	font-size: 15.5px;
+}
+.su_button{
+	padding: 10px 20px;
+	max-width: 200px;
+}
+.su_button a {
+	font-size: 17px;
+
+}
 .ligues img{
-width:20%;
-height:100%;
+width:30%;
+height:15px;
 object-fit: contain;
 }
+
+.ligues img:nth-child(1){
+height:20px;
+}
+
 .ligues{
 	justify-content: space-between;
 }
@@ -2840,11 +2861,15 @@ object-fit: contain;
 .su_step{
 	border:0px black dashed;
 	width:100%;
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 }
+
+
 .su_step .su_button{
 margin-top: 20px;
 }
+
+
 .title_news{
 	margin-bottom: 20px;
 	padding-left:2.5%;
@@ -2886,5 +2911,20 @@ height:100%;
 }
 .application{
 	margin-top: 50px;
+}
+.container{
+	align-items:center;
+}
+.games__card{
+	right:0 !important;
+	left:0 !important;
+}
+.statistic .button_yellow{
+	margin-left:0;
+}
+
+
+.title_news{
+	margin-bottom: 30px;
 }
 }
