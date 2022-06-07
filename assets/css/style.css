@@ -124,26 +124,14 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(rgba(37, 37, 44, 1)),
-		to(#0c0c0e)
-	);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 37, 44, 1)), to(#0c0c0e));
 	background: linear-gradient(180deg, rgba(37, 37, 44, 1) 0%, #0c0c0e 100%);
 }
 
 body::-webkit-scrollbar-thumb {
 	-webkit-box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
 	box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(#d0368a),
-		color-stop(99%, #708ad4)
-	);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0368a), color-stop(99%, #708ad4));
 	background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
 	border-radius: 20px;
 }
@@ -273,12 +261,7 @@ section {
 
 @-webkit-keyframes gradient {
 	0% {
-		background: radial-gradient(
-			circle at center,
-			#fac704 99%,
-			rgba(0, 0, 0, 0) 100%,
-			rgba(0, 0, 0, 0) 100%
-		);
+		background: radial-gradient(circle at center, #fac704 99%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
 	}
 
 	25% {
@@ -310,30 +293,14 @@ section {
 
 	100% {
 		color: #f8f8f8;
-		background: radial-gradient(
-			circle at center,
-			rgba(250, 199, 4, 0) 0%,
-			rgba(0, 0, 0, 0) 0%,
-			rgba(0, 0, 0, 0) 100%
-		);
+		background: radial-gradient(circle at center, rgba(250, 199, 4, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
 	}
 }
 
 @keyframes gradient {
 	0% {
-		background: -o-radial-gradient(
-			center,
-			circle,
-			#fac704 99%,
-			rgba(0, 0, 0, 0) 100%,
-			rgba(0, 0, 0, 0) 100%
-		);
-		background: radial-gradient(
-			circle at center,
-			#fac704 99%,
-			rgba(0, 0, 0, 0) 100%,
-			rgba(0, 0, 0, 0) 100%
-		);
+		background: -o-radial-gradient(center, circle, #fac704 99%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+		background: radial-gradient(circle at center, #fac704 99%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
 	}
 
 	25% {
@@ -386,19 +353,8 @@ section {
 
 	100% {
 		color: #f8f8f8;
-		background: -o-radial-gradient(
-			center,
-			circle,
-			rgba(250, 199, 4, 0) 0%,
-			rgba(0, 0, 0, 0) 0%,
-			rgba(0, 0, 0, 0) 100%
-		);
-		background: radial-gradient(
-			circle at center,
-			rgba(250, 199, 4, 0) 0%,
-			rgba(0, 0, 0, 0) 0%,
-			rgba(0, 0, 0, 0) 100%
-		);
+		background: -o-radial-gradient(center, circle, rgba(250, 199, 4, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+		background: radial-gradient(circle at center, rgba(250, 199, 4, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
 	}
 }
 
@@ -651,11 +607,7 @@ section {
 	padding: 90px 40px;
 	top: calc(50% - 90px);
 	border: 0 solid #000;
-	background: -o-linear-gradient(
-		right,
-		rgba(196, 196, 196, 0) 0%,
-		rgba(191, 191, 191, 0.1) 117.5%
-	);
+	background: -o-linear-gradient(right, rgba(196, 196, 196, 0) 0%, rgba(191, 191, 191, 0.1) 117.5%);
 	background: -webkit-gradient(
 		linear,
 		right top,
@@ -663,11 +615,7 @@ section {
 		from(rgba(196, 196, 196, 0)),
 		color-stop(117.5%, rgba(191, 191, 191, 0.1))
 	);
-	background: linear-gradient(
-		270deg,
-		rgba(196, 196, 196, 0) 0%,
-		rgba(191, 191, 191, 0.1) 117.5%
-	);
+	background: linear-gradient(270deg, rgba(196, 196, 196, 0) 0%, rgba(191, 191, 191, 0.1) 117.5%);
 	-webkit-backdrop-filter: blur(80px);
 	backdrop-filter: blur(80px);
 	border-radius: 2px;
@@ -695,11 +643,7 @@ section {
 }
 
 .news__arrow.news__arrow_right {
-	background: -o-linear-gradient(
-		right,
-		rgba(191, 191, 191, 0.1) 0%,
-		rgba(196, 196, 196, 0) 117.5%
-	);
+	background: -o-linear-gradient(right, rgba(191, 191, 191, 0.1) 0%, rgba(196, 196, 196, 0) 117.5%);
 	background: -webkit-gradient(
 		linear,
 		right top,
@@ -707,11 +651,7 @@ section {
 		from(rgba(191, 191, 191, 0.1)),
 		color-stop(117.5%, rgba(196, 196, 196, 0))
 	);
-	background: linear-gradient(
-		270deg,
-		rgba(191, 191, 191, 0.1) 0%,
-		rgba(196, 196, 196, 0) 117.5%
-	);
+	background: linear-gradient(270deg, rgba(191, 191, 191, 0.1) 0%, rgba(196, 196, 196, 0) 117.5%);
 	right: 25px;
 }
 
@@ -894,13 +834,7 @@ section {
 	left: 5%;
 	height: 5px;
 	background: -o-linear-gradient(left, #fac704 -1.63%, #ff7a00 101.63%);
-	background: -webkit-gradient(
-		linear,
-		left top,
-		right top,
-		color-stop(-1.63%, #fac704),
-		color-stop(101.63%, #ff7a00)
-	);
+	background: -webkit-gradient(linear, left top, right top, color-stop(-1.63%, #fac704), color-stop(101.63%, #ff7a00));
 	background: linear-gradient(90deg, #fac704 -1.63%, #ff7a00 101.63%);
 	z-index: -1;
 }
@@ -954,8 +888,7 @@ section {
 	color: #8a0074;
 	min-width: 70px;
 	min-height: 70px;
-	background: url(../img/instructions/back.png) no-repeat center center /
-		contain;
+	background: url(../img/instructions/back.png) no-repeat center center / contain;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1011,8 +944,7 @@ section {
 	height: 100%;
 	bottom: -25%;
 	right: 0;
-	background: url(../img/backgrounds/promo-image-2.png) no-repeat center right /
-		contain;
+	background: url(../img/backgrounds/promo-image-2.png) no-repeat center right / contain;
 	width: 50%;
 	height: 150%;
 }
@@ -1101,11 +1033,7 @@ section {
 	padding: 50px 40px;
 	top: calc(100% - 80px);
 	border: 0 solid #000;
-	background: -o-linear-gradient(
-		right,
-		rgba(196, 196, 196, 0) 0%,
-		rgba(191, 191, 191, 0.1) 117.5%
-	);
+	background: -o-linear-gradient(right, rgba(196, 196, 196, 0) 0%, rgba(191, 191, 191, 0.1) 117.5%);
 	background: -webkit-gradient(
 		linear,
 		right top,
@@ -1113,11 +1041,7 @@ section {
 		from(rgba(196, 196, 196, 0)),
 		color-stop(117.5%, rgba(191, 191, 191, 0.1))
 	);
-	background: linear-gradient(
-		270deg,
-		rgba(196, 196, 196, 0) 0%,
-		rgba(191, 191, 191, 0.1) 117.5%
-	);
+	background: linear-gradient(270deg, rgba(196, 196, 196, 0) 0%, rgba(191, 191, 191, 0.1) 117.5%);
 	-webkit-backdrop-filter: blur(80px);
 	backdrop-filter: blur(80px);
 	border-radius: 2px;
@@ -1144,11 +1068,7 @@ section {
 }
 
 .players__arrow.players__arrow_right {
-	background: -o-linear-gradient(
-		right,
-		rgba(191, 191, 191, 0.1) 0%,
-		rgba(196, 196, 196, 0) 117.5%
-	);
+	background: -o-linear-gradient(right, rgba(191, 191, 191, 0.1) 0%, rgba(196, 196, 196, 0) 117.5%);
 	background: -webkit-gradient(
 		linear,
 		right top,
@@ -1156,11 +1076,7 @@ section {
 		from(rgba(191, 191, 191, 0.1)),
 		color-stop(117.5%, rgba(196, 196, 196, 0))
 	);
-	background: linear-gradient(
-		270deg,
-		rgba(191, 191, 191, 0.1) 0%,
-		rgba(196, 196, 196, 0) 117.5%
-	);
+	background: linear-gradient(270deg, rgba(191, 191, 191, 0.1) 0%, rgba(196, 196, 196, 0) 117.5%);
 	right: 50px;
 }
 
@@ -1312,12 +1228,7 @@ section {
 .stars:after {
 	position: absolute;
 	content: '';
-	background: -o-linear-gradient(
-			top,
-			rgba(20, 20, 24, 0.8) 0%,
-			rgba(20, 20, 24, 0.9) 50%,
-			#141418 100%
-		),
+	background: -o-linear-gradient(top, rgba(20, 20, 24, 0.8) 0%, rgba(20, 20, 24, 0.9) 50%, #141418 100%),
 		url(../img/backgrounds/land-info-back.jpg) no-repeat top left / 100%;
 	background: -webkit-gradient(
 			linear,
@@ -1328,12 +1239,7 @@ section {
 			to(#141418)
 		),
 		url(../img/backgrounds/land-info-back.jpg) no-repeat top left / 100%;
-	background: linear-gradient(
-			180deg,
-			rgba(20, 20, 24, 0.8) 0%,
-			rgba(20, 20, 24, 0.9) 50%,
-			#141418 100%
-		),
+	background: linear-gradient(180deg, rgba(20, 20, 24, 0.8) 0%, rgba(20, 20, 24, 0.9) 50%, #141418 100%),
 		url(../img/backgrounds/land-info-back.jpg) no-repeat top left / 100%;
 	top: 0;
 	left: 0;
@@ -1695,12 +1601,7 @@ section {
 	.stars:after {
 		position: absolute;
 		content: '';
-		background: -o-linear-gradient(
-				top,
-				rgba(21, 21, 24, 0.8) 0%,
-				rgba(21, 21, 24, 0.9) 50%,
-				#151518 100%
-			),
+		background: -o-linear-gradient(top, rgba(21, 21, 24, 0.8) 0%, rgba(21, 21, 24, 0.9) 50%, #151518 100%),
 			url(../img/backgrounds/land-info-back.jpg) no-repeat top left / 100%;
 		background: -webkit-gradient(
 				linear,
@@ -1711,12 +1612,7 @@ section {
 				to(#151518)
 			),
 			url(../img/backgrounds/land-info-back.jpg) no-repeat top left / 100%;
-		background: linear-gradient(
-				180deg,
-				rgba(21, 21, 24, 0.8) 0%,
-				rgba(21, 21, 24, 0.9) 50%,
-				#151518 100%
-			),
+		background: linear-gradient(180deg, rgba(21, 21, 24, 0.8) 0%, rgba(21, 21, 24, 0.9) 50%, #151518 100%),
 			url(../img/backgrounds/land-info-back.jpg) no-repeat top left / 100%;
 		top: 0;
 		left: 0;
@@ -2007,26 +1903,13 @@ header {
 	}
 
 	body:after {
-		background: -o-radial-gradient(
-				50% 24.92%,
-				145.91% 78.47%,
-				rgba(34, 34, 40, 0) 0%,
-				#232328 100%
-			),
+		background: -o-radial-gradient(50% 24.92%, 145.91% 78.47%, rgba(34, 34, 40, 0) 0%, #232328 100%),
 			-o-linear-gradient(top, rgba(12, 12, 14, 0) 0%, #232328 100%),
 			url(../img/backgrounds/land-header-back.jpg) no-repeat top center / 400%;
-		background: radial-gradient(
-				145.91% 78.47% at 50% 24.92%,
-				rgba(34, 34, 40, 0) 0%,
-				#232328 100%
-			),
+		background: radial-gradient(145.91% 78.47% at 50% 24.92%, rgba(34, 34, 40, 0) 0%, #232328 100%),
 			-webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 14, 0)), to(#232328)),
 			url(../img/backgrounds/land-header-back.jpg) no-repeat top center / 400%;
-		background: radial-gradient(
-				145.91% 78.47% at 50% 24.92%,
-				rgba(34, 34, 40, 0) 0%,
-				#232328 100%
-			),
+		background: radial-gradient(145.91% 78.47% at 50% 24.92%, rgba(34, 34, 40, 0) 0%, #232328 100%),
 			linear-gradient(180deg, rgba(12, 12, 14, 0) 0%, #232328 100%),
 			url(../img/backgrounds/land-header-back.jpg) no-repeat top center / 400%;
 	}
@@ -2068,23 +1951,9 @@ header {
 	}
 
 	.games__card.active .games-img-phone {
-		background: -o-linear-gradient(
-			top,
-			rgba(31, 31, 36, 0) 19.27%,
-			#000000 100%
-		);
-		background: -webkit-gradient(
-			linear,
-			left top,
-			left bottom,
-			color-stop(19.27%, rgba(31, 31, 36, 0)),
-			to(#000000)
-		);
-		background: linear-gradient(
-			180deg,
-			rgba(31, 31, 36, 0) 19.27%,
-			#000000 100%
-		);
+		background: -o-linear-gradient(top, rgba(31, 31, 36, 0) 19.27%, #000000 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(19.27%, rgba(31, 31, 36, 0)), to(#000000));
+		background: linear-gradient(180deg, rgba(31, 31, 36, 0) 19.27%, #000000 100%);
 		border: 5px solid #fac704;
 		-webkit-box-shadow: 0px 4px 36px rgba(250, 199, 4, 0.24);
 		box-shadow: 0px 4px 36px rgba(250, 199, 4, 0.24);
@@ -2138,12 +2007,7 @@ header {
 	}
 
 	.stars:after {
-		background: -o-linear-gradient(
-				top,
-				rgba(21, 21, 24, 0.8) 0%,
-				rgba(21, 21, 24, 0.9) 50%,
-				#151518 100%
-			),
+		background: -o-linear-gradient(top, rgba(21, 21, 24, 0.8) 0%, rgba(21, 21, 24, 0.9) 50%, #151518 100%),
 			url(../img/backgrounds/land-info-back.jpg) no-repeat top center / 200%;
 		background: -webkit-gradient(
 				linear,
@@ -2154,12 +2018,7 @@ header {
 				to(#151518)
 			),
 			url(../img/backgrounds/land-info-back.jpg) no-repeat top center / 200%;
-		background: linear-gradient(
-				180deg,
-				rgba(21, 21, 24, 0.8) 0%,
-				rgba(21, 21, 24, 0.9) 50%,
-				#151518 100%
-			),
+		background: linear-gradient(180deg, rgba(21, 21, 24, 0.8) 0%, rgba(21, 21, 24, 0.9) 50%, #151518 100%),
 			url(../img/backgrounds/land-info-back.jpg) no-repeat top center / 200%;
 	}
 
@@ -2314,16 +2173,8 @@ header {
 	z-index: 999;
 	position: absolute;
 	background: rgb(40, 36, 106);
-	background: linear-gradient(
-		176deg,
-		rgba(40, 36, 106, 1) 19%,
-		rgba(255, 186, 0, 1) 100%
-	);
-	background: linear-gradient(
-		176deg,
-		rgb(77 73 131 / 64%) 19%,
-		rgb(35 35 41) 100%
-	);
+	background: linear-gradient(176deg, rgba(40, 36, 106, 1) 19%, rgba(255, 186, 0, 1) 100%);
+	background: linear-gradient(176deg, rgb(77 73 131 / 64%) 19%, rgb(35 35 41) 100%);
 }
 
 /*
@@ -2860,14 +2711,17 @@ input:checked + label {
 	padding-bottom: 12vh;
 }
 
-.step_info img {
+.step_info iframe {
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
 	transition: 0.6s;
 	cursor: pointer;
 	opacity: 0.7;
 	box-shadow: 0px 0px 49px 44px #fbcb1a0f;
 }
 
-.step_info:hover img {
+.step_info:hover iframe {
 	opacity: 1;
 	transition: 0.6s;
 }
@@ -3149,6 +3003,9 @@ input:checked + label {
 	}
 	.application__platforms {
 		justify-content: space-between;
+	}
+	.step_info iframe {
+		min-height: 300px;
 	}
 }
 .application__buttons.df-aic {
