@@ -2445,14 +2445,12 @@ span.ps_logo_us {
 	color: #a9a9a9;
 }
 
-.ligue {
-}
-
 .ligues {
 	display: flex;
 	align-items: center;
 	width: 100%;
 	justify-content: start;
+	margin-top: 30px;
 }
 
 .ligues span {
@@ -2704,20 +2702,19 @@ input:checked + label {
 }
 
 .step_info {
-	/*    background: url(../img/backgrounds/video.png) center no-repeat;*/
+	background: url(../img/backgrounds/video.png) center no-repeat;
 	width: 100%;
 	height: 100%;
 	transition: 0.6s;
-	padding-bottom: 12vh;
+	margin-bottom: 60px;
 }
-
 .step_info iframe {
 	width: 100%;
 	height: 100%;
 	min-height: 600px;
 	transition: 0.6s;
 	cursor: pointer;
-	opacity: 0.7;
+	opacity: 0.01;
 	box-shadow: 0px 0px 49px 44px #fbcb1a0f;
 }
 
@@ -3016,4 +3013,7 @@ input:checked + label {
 .application__buttons .button {
 	height: 100%;
 	margin-left: 20px;
+}
+
+.ligues {
 }
