@@ -2849,7 +2849,7 @@ input:checked + label {
 	margin-top: 15px;
 	list-style-type: decimal;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
 	h1 {
 		font-size: 30px !important;
 	}
