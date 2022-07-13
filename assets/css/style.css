@@ -3017,3 +3017,20 @@ input:checked + label {
 
 .ligues {
 }
+.contacts{
+	width: 100%;
+	position: relative;
+	top: 100px;
+	margin: 0px 0px 200px 0px;
+}.contacts h1{
+	font-size: 2rem;
+	margin: 0px 0px 38px 0px;
+}.contacts span{
+	font-size: 1.1rem;
+	top: 20px;
+	margin: 0px 0px 38px 0px;
+}.contacts ul{
+	font-size: 1.2rem;
+	top: 20px;
+	margin: 0px 0px 38px 0px;
+}.contacts .container{margin: 0 auto 200px;}.contacts span{margin: 0px 0px 38px 0px;}
