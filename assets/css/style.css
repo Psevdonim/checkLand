@@ -2301,9 +2301,15 @@ header {
 	justify-content: space-between;
 	align-items: center;
 }
+
 .footerLinkContent .documents a:nth-child(2) {
 	margin-left: 30px;
 }
+
+.footerLinkContent .documents a:nth-child(3) {
+	margin-left: 30px;
+}
+
 
 #logotype {
 	background-color: inherit;
